@@ -4,3 +4,5 @@ PATTERN/
 .env
 temp_data_actual/
 *.json
+.DS_Store
+build/
