@@ -4,6 +4,7 @@
   "description": "Import transactions from your bank accounts into Actual Budget via Plaid API",
   "main": "cli.js",
   "scripts": {
+    "build-binary-prod": "bun build --compile --minify --sourcemap ./index.js --outfile ./build/actualplaid",
     "cli": "bun run ./index.js",
     "setup": "bun cli setup",
     "import": "bun cli import"
